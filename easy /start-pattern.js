@@ -22,3 +22,11 @@ function createPyramid(height) {
     console.log(spaces + stars);
   }
 }
+
+// 2. Right Triangle
+function createRightTriangle(height) {
+  console.log("\nRight Triangle Pattern:");
+  for (let i = 0; i < height; i++) {
+    console.log("*".repeat(i + 1));
+  }
+}
